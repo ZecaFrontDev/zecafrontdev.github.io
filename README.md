@@ -15,6 +15,6 @@
 📫 Contact Me!
 📩 Email: zecalopesribeirobarbosa@outlook.com
 💼 LinkedIn: https://www.linkedin.com/in/zeca-lopes-418745340/
-📸 Instagram: instagram.com/zecafrontdev
+📸 Instagram: https://www.instagram.com/zecafrontdev
 
 🔥 Let’s build something amazing together! 🚀
