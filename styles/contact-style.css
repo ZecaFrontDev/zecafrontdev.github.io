@@ -39,7 +39,7 @@ a{
  
 }
 
-header h1, p{
+.headertxt{
     text-align: center;
     color: white;
 }
