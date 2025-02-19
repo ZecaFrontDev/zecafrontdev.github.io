@@ -4,6 +4,9 @@ body{
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#cta-design:hover, #cta-videoediting:hover{
+  color: gray;
+}
 
 button{
   background: transparent;
