@@ -51,17 +51,17 @@ button::before {
 button:hover {
 
   border: 1px solid rgb(0, 26, 255);
-  color: rgb(165, 52, 146);
+ color: blue;
 }
 
-button:hover::before {
-  box-shadow: inset 0 0 0 10em rgb(124, 176, 224);
-  
-}
+
 a{
    text-decoration: none;
    color: rgb(0, 255, 255);
    text-decoration: none;
+}
+#cta-contacts:hover{
+  color: gray;
 }
 .btn{
    display: flex;
