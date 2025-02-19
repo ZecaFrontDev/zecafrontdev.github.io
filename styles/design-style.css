@@ -97,8 +97,9 @@ a{
 }
 
 body{
-    background-color: rgb(104, 95, 15);
-   padding: 30px;
+    background-color: #915303;
+   padding: 16px;
+   margin: 16px;
 }
 .text{
     text-align: center;
