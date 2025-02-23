@@ -6,11 +6,11 @@
 
 📌 Currently working on:
 🚀 Responsive Web Design
-🚀 Web Animations (GSAP, CSS, JS)
+🚀 Web Animations (CSS, JS)
 🚀 UI/UX Experiments
 🚀 Side projects & cool web apps
 
-👉 Check out my full portfolio: My Website
+👉 Check out my full portfolio: https://zecafrontdev.github.io/index.html
 
 📫 Contact Me!
 📩 Email: zecalopesribeirobarbosa@outlook.com
