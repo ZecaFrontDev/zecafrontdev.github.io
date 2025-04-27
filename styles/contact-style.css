@@ -1,42 +1,31 @@
 nav{
    display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 15px;
-    
-    
- 
+    justify-content: space-evenly;
+    padding: 16px;
+    margin: 16px;
 }
-nav a{
+a{
  text-align: center;
- padding: 10px;
  text-decoration: none;
  color: white;
 }
-
-
-
 header{
     text-align: center;
     color: white;
 }
-
 img{
    height: 50px;
    
 }
-
 .container {
   text-align: center;
 }
-
 img {
   display: inline-block; /* Mantém as imagens lado a lado */
   margin: 10px; /* Dá um espaçamento entre elas */
   max-width: 100%;
 }
-
 .ig-logo{
   transition:  0.2s ease, box-shadow 0.2s ease;
   -webkit-transition:  0.2s ease, box-shadow 0.2s ease;
@@ -92,41 +81,36 @@ form {
   max-width: 500px;
   margin: auto;
 }
-
 label {
   font-weight: 600;
   margin-bottom: 5px;
   display: block;
   color: #333;
 }
-
 input, textarea {
   width: 95%;
   padding: 7px;
-  
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
   transition: border 0.3s ease;
 }
-
 input:focus, textarea:focus {
   border-color: rgb(124, 176, 224);
   outline: none;
 }
-
 textarea {
   height: 120px;
   resize: none;
 }
-
 body{
   background-color: #0c0000fb;
 }
 button {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background-color: transparent;
     position: relative;
-    padding: 15px 20px;
+    padding: 16px;
+    margin: 16px;
     margin-top: 15px;
     display: flex;
     align-items: center;
@@ -135,17 +119,13 @@ button {
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
-    border: none;
-    border-radius: 25px;
-    outline: none;
+    border: 2px solid blue;
+    border-radius: 10px;
+     outline: none;
     overflow: hidden;
-    color: white;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    
 }
-
 button:hover {
     transform: scale(1.05);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
@@ -153,5 +133,5 @@ button:hover {
 
 button:active {
     transform: scale(0.95);
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #333;
 }
