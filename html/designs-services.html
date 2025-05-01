@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/favicon">
     <title>Design Serices</title>
 </head>
-<body>
+<body class="fade-top">
     <nav>
         <div class="btn">
             <a href="/index.html"><button>Home</button></a>
@@ -73,5 +73,22 @@
             2025
         </p>
     </footer>
+    <style>
+        .fade-top {
+            animation: aparecer 1.0s ease both;
+        }
+    
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+    
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </body>
 </html>

@@ -2,26 +2,36 @@
 body {
   background-color: black;
 }
-
+.btn {
+  display: flex;
+  justify-content: center;
+  transition:  0.2s ease, box-shadow 0.2s ease;
+  -webkit-transition:  0.2s ease, box-shadow 0.2s ease;
+  -moz-transition:  0.2s ease, box-shadow 0.2s ease;
+  -ms-transition:  0.2s ease, box-shadow 0.2s ease;
+  -o-transition:  0.2s ease, box-shadow 0.2s ease;
+}
 /* 🔘 Estilização dos botões */
 button {
   background: transparent;
-  padding: 16px;
-  margin: 16px;
+  padding: 8px;
+  margin: 20px;
   display: flex;
   justify-content: space-evenly;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 16px;
   text-decoration: none;
   cursor: pointer;
   border: 2px solid rgb(0, 26, 255);
-  border-radius: 25px;
+  border-radius: 5px;
   outline: none;
   overflow: hidden;
   color: rgb(255, 255, 255);
   transition: all 0.3s ease-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
-
 button:hover {
   transform: scale(1.05);
   border: 2px solid rgb(0, 26, 255);
@@ -33,49 +43,22 @@ button:hover {
 button:active{
    transform: scale(0.95);
    background-color: #505050;
+   -webkit-transform: scale(0.95);
+   -moz-transform: scale(0.95);
+   -ms-transform: scale(0.95);
+   -o-transform: scale(0.95);
 }
 button:hover::before {
   box-shadow: inset 0 0 0 10em rgb(0, 0, 0);
 }
-
-/* 📌 Centraliza os botões no menu */
-.btn {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  transition:  0.2s ease, box-shadow 0.2s ease;
-}
-
-/* 🖼️ Estilização da seção "about" */
-.about {
-  text-align: center;
-  padding: 40px 20px;
-}
-
 /* 🖼️ Layout flexível para o texto + foto */
 .about .content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px; /* Espaço entre texto e imagem */
-  flex-wrap: wrap; /* Para responsividade */
+ 
 }
-
-/* 📝 Texto do "about" */
-.about .texto {
-  color: white;
-  line-height: 1.6;
-  max-width: 600px;
-  text-align: left;
-}
-
-.about h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: #ffffff;
-  text-decoration: underline;
-}
-
 /* 📸 Foto arredondada e estilizada */
 .minha-foto img {
   width: 200px;
@@ -85,13 +68,27 @@ button:hover::before {
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   transition: 0.3s ease-in-out;
+  position: relative;
+  left: 800px;
+  bottom: 50px;
+   flex-wrap: wrap; /* Para responsividade */
 }
-
 .minha-foto img:hover {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
   transform: scale(1.05);
-}
 
+}
+/* 📝 Texto do "about" */
+.text{
+  color: white;
+  line-height: 1.6;
+  max-width: 600px;
+  text-align: left;
+  position: relative;
+  left: 200px;
+  top: 100px;
+   flex-wrap: wrap; /* Para responsividade */
+}
 /* 📏 Links */
 a {
   text-decoration: none;

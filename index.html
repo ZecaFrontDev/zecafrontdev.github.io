@@ -5,42 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <meta name="description" content="My Portifolio ">
-    <meta name="keywords" content="html, css, JavaScript, React, Node.js">
+    <meta name="keywords" content="html, css, JavaScript, Node.js">
     <meta http-equiv="cache-control" content="no-cache">
     <title>ZecaFrontDev</title>
     <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/favicon">
    
 </head>
-<body>
+<body class="fade-top">
     <nav>
         <div class="btn">
-            <a href="/html/contacts.html"><button>Contact Me!</button></a>
+            <a href="/html/contacts.html"><button>Contact</button></a>
             <a href="/html/projects.html"><button>Projects</button></a>
-            <a href="/html/faq-page.html"><button>FAQ</button></a>
             <a href="/html/services.html"><button>Services</button></a>
         </div>
     </nav>
-
-    <section class="about">
-        <div class="content">
-            <div class="texto">
-                <h1>Welcome to my corner of the web! 🚀</h1>
-                <p>
-                    I'm Zeca Lopes, a front-end developer who loves crafting beautiful,
-                    fast, and user-friendly websites. From sleek UI/UX designs to powerful web apps,
-                    I turn ideas into reality with clean code and creative thinking.
-                </p>
-                <p>
-                    Feel free to check out my <a href="projects.html">latest work</a> or
-                    <a href="contact.html">reach out</a>—let's create something awesome together!
-                </p>
-            </div>
-
-            <div class="minha-foto">
-                <img src="/imagens/minha-foto.png" alt="Minha foto">
-            </div>
+    <section>
+        <div class="text">
+            <h1>Welcome to my corner of the web! 🚀</h1>
+            <p>
+                I'm Zeca Lopes, a front-end developer who loves crafting beautiful,
+                fast, and user-friendly websites. From sleek UI/UX designs to powerful web apps,
+                I turn ideas into reality with clean code and creative thinking.
+            </p>
         </div>
+        <div class="minha-foto">
+            <img src="/imagens/minha-foto.png" alt="Minha foto">
+        </div>
+       
+          
+                 
+              
     </section>
+    <style>
+        .fade-top {
+            animation: aparecer 1.0s ease both;
+        }
+    
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+    
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/contact-style.css">
     <title>My Contacts</title>
 </head>
-<body>
+<body class="fade-top">
     <nav>
         <button><a href="/index.html">Home</a></button>
         <button><a href="/html/projects.html">Projects</a></button>
@@ -40,6 +40,23 @@
        <div class="linkedin-logo"><a href="https://www.linkedin.com/in/zeca-lopes-418745340/" target="_blank"><img src="/imagens/linkedin.png" alt="gmail-logo"></a></div>
     </div>
   </section>    
+    <style>
+      .fade-top {
+        animation: aparecer 1.0s ease both;
+      }
+    
+      @keyframes aparecer {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+    
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
     
 
         

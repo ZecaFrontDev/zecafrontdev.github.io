@@ -8,7 +8,7 @@
     
     <title>Projects Showcase</title>
 </head>
-<body>
+<body class="fade-top">
     <nav>
        <div class="nav-btn">
            <a href="/index.html"><button>Home</button></a>
@@ -126,7 +126,23 @@
     
                </div>
     </section>
-    
 </main>
+<style>
+    .fade-top {
+        animation: aparecer 1.0s ease both;
+    }
+
+    @keyframes aparecer {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
 </body>
 </html>

@@ -5,30 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/services-style.css">
     <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
     <title>Services</title>
 </head>
-<body>
+<body class="fade-top">
     <nav>
         <div class="btn">
         <a href="/index.html"><button>Home</button></a>
-        <a href="/html/projects-showcase.html"><button>Projects Showcase</button></a>
-        <a href="/html/contacts.html"><button>Contact Me!</button></a>
+        <a href="/html/projects.html"><button>Projects Showcase</button></a>
+        <a href="/html/contacts.html"><button>Contact</button></a>
         </div>
     </nav>
     <header>
-        <h1>This page is where I show the types of services I offer.</h1>
+        <h1>Services currently available.</h1>
     </header>
     <main>
         <section>
             <h2>Design Services:</h2>
-            <p>special design services, from simple to medium level.<br>My level is currently beginner, but I always strive to deliver
+            <p>Special design services, from simple to medium level.<br>My level is currently beginner, but I always strive to deliver
             something more stylish and beyond the simple.</p>
             <p><a href="/html/designs-services.html" target="_blank" id="cta-design">Click here to see more!</a></p>
         </section>
         <section>
             <h2>Video Editing</h2>
-            <p>"Need a clean, engaging video? 🎬 <a href="/html/videoediting.html" target="_blank" id="cta-videoediting">Check out my editing services!</a>"</p>
+            <p>"Need a clean, engaging video? 🎬 <a href="/html/videoediting.html" target="_blank">Check out my editing services!</a>"</p>
         </section>
     </main>
+    <style>
+        .fade-top {
+            animation: aparecer 1.0s ease both;
+        }
+    
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+    
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </body>
 </html>

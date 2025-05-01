@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/favicon">
     <title>Video Editing</title>
 </head>
-<body>
+<body class="fade-top">
     <nav>
         <a href="/index.html">Home</a>
         <a href="/html/projects-showcase.html">Projects Showcase</a>
@@ -34,8 +34,23 @@
         <p>Ready to bring your videos to life? Let's talk! 🚀</p>
         <a href="contacts.html" class="contact-btn">Get in Touch</a>
     </div>
-
     </section>
+<style>
+    .fade-top {
+        animation: aparecer 1.0s ease both;
+    }
 
+    @keyframes aparecer {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
 </body>
 </html>
