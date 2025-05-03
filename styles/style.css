@@ -1,6 +1,7 @@
 /* 🌑 Fundo preto para todo o site */
 body {
   background-color: black;
+   flex-wrap: nowrap; /* Para responsividade */
 }
 .btn {
   display: flex;
@@ -13,6 +14,7 @@ body {
 }
 /* 🔘 Estilização dos botões */
 button {
+  flex-wrap: nowrap;
   background: transparent;
   padding: 8px;
   margin: 20px;
@@ -87,7 +89,7 @@ button:hover::before {
   position: relative;
   left: 200px;
   top: 100px;
-   flex-wrap: wrap; /* Para responsividade */
+   flex-wrap: nowrap; /* Para responsividade */
 }
 /* 📏 Links */
 a {
